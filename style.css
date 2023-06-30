@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #200cd6 16.62%, #6407dd 85.61%);
+
+}
+
+.Cabeçalho{
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 24px;
+}
+
+.logo{
+    height: 72px;
+
+}
+
+.menu{
+    display:flex;
+    gap: 32px;
+
+
+}
+
+.textos-menu{
+    background-color:aqua;
+    font-weight: 400;
+    font-size: 18px;
+    
+
+}
+
+.textos-menu:hover{
+    background-color: rgb(186, 12, 202);
+
+
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2e7
+
+}
+
+.conteudo-principal{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.Conteudo-principal-escrito{
+    display:flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.Conteudo-principal-Titulo{
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2e7
+
+}
+
+.Conteudo-principal-Subtitulo{
+    font-weight: 400;
+    font-size: 17px;
+    color: #ECD6C4
+
+}
+
+.Botao-conteudo-principal{
+    background-color:aqua;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 24px;
+
+
+}
+.Botao-conteudo-principal:hover{
+    background-color: rgb(186, 12, 202);
+}
+
+.Conteudo-principal-imagem{
+    height:430px;
+
+}
+
+.Conteudo-secundario{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 24px;
+    margin-top:48px;
+
+}
+
+.Conteudo-secundario-titulo{
+    border-top: 0.4px solid#FFF2e7;
+    padding-top:24px;
+    font-weight: 400;
+    font-size: 24px;
+    color:#FFF2e7;
+    margin-bottom: 16px;
+
+
+}
+
+.Conteudo-secundario-p{
+    font-weight: 300;
+    font-size: 18px;
+    color:#FFF2e7;
+
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid#FFF2e7;
+    
+
+
+}
+
+.rodape-logo{
+    height: 48px;
+    display: block;
+    margin:0 auto;
+}
+
+.rodape{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
