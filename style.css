@@ -8,7 +8,7 @@
 body{
     font-size: 100%;
     background: linear-gradient(68.15deg, #200cd6 16.62%, #6407dd 85.61%);
-
+    
 }
 
 .Cabeçalho{
@@ -27,6 +27,7 @@ padding: 24px;
 .menu{
     display:flex;
     gap: 32px;
+    
 
 
 }
@@ -145,5 +146,97 @@ padding: 24px;
     display:flex;
     align-items: center;
     justify-content: space-evenly;
+
+}
+
+.plano{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top:48px;
+}
+
+.tabelas-planos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width:min(1600px, 100%);
+    margin: auto;
+    align-items: center;
+    right: 50px;
+
+
+}
+
+.card-preco{
+    flex:1;
+    max-width: 360px;
+    background-color:#ECD6C4;
+    margin:20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color:#6407dd;
+    transition: .3s linear;
+}
+
+.card-preco:hover{
+    background-color: aqua;
+}
+
+.basico{
+    background-color: #0c0b0e;
+    display:inline-block;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+
+}
+
+
+.preco{
+    font-size: 50px;
+    color:#200cd6;
+    margin: 40px 0;
+    transition: .2s linear;
+}
+
+ .card-preco li{
+    font-size: 20px;
+    color:#200cd6;
+    text-transform: uppercase;
+    
+
+}
+
+.botao{
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top:80px;
+    border: 2px solid #6407dd;
+    color:#0e0d11; 
+    padding: 18px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+
+}
+
+.botao:hover{
+    background-color:#200cd6;
+    color:antiquewhite
+}
+
+.formulario{
+    flex-direction:row;
+    background: linear-gradient(68.15deg, #200cd6 16.62%, #6407dd 85.61%);
+    color:#fbfcfc;
+    
 
 }
